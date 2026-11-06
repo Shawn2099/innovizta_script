@@ -74,6 +74,21 @@ Based on: `REEL_FORMULA.md` (26 competitor reels) + production-craft research. N
 - Export **1080×1920, 9:16, 30 fps, H.264 MP4**, from 4K source.
 - **Text safe zone:** keep all text **>270 px from the top, >670 px from the bottom, >160 px from the right edge**, and >60 px from the left *(test: confirm on a real phone, since sources vary)*.
 - **Cover:** keep the face + title inside the **centre 1080×1350**, because the grid crops it.
+- **Approved 6 Nov (LAUNCH2):** for organic reels, text sits **lower, on the chest (y ≈ 1150–1450)**, never up near the face. In the editor block set `y:` on every text item and `export: {safe_bottom: 1480}`. The old 670 px bottom margin is for ads only.
+
+### B0. APPROVED EDIT STYLE (user signed off on LAUNCH2, 6 Nov 2026). Use this unless the user says otherwise
+Reference edit: the editor block in `scripts/2026-11-23_LAUNCH2_free-consult.md`. Copy its settings.
+1. **No punch-zooms** (no CUT-PUNCH / TRN-PUNCH / `punches:`). They read as random cuts.
+2. **No jump cuts inside a sentence**, especially in the hook (`jumpcut: false` on talking pieces with a natural pause). Only trim silence **before the first word and after the last word**.
+3. **Trim dead air at the end of every clip:** max ~0.3 s after the last word. If `out: auto` leaves a long tail, set `out:` by hand (LAUNCH2 B1: 1.9 s of silence cut with `out: 7.45`).
+4. **Soft cross-fade between clips:** `transition_in: TRN-FADE` (0.35 s) on every beat after the first, including room changes.
+5. **No progress bar** (pipeline default is now off).
+6. **No name label** ("Shawn · The Project Shop") on screen.
+7. **Text low on the chest:** TXT-HOOK y 1150, TXT-KEY y 1200, TXT-CTA y 1010 with a TXT-LABEL subline at y 1320. `safe_bottom: 1480`.
+8. **CTA = keyword + reason:** `COMMENT "PROJECT"` plus a subline saying what they get ("FOR A FREE CONSULTATION SESSION").
+9. **End card v2:** white, big logo, **Title Case** lines: tagline · orange box with the offer ("Free 1-Hour Team Consultation") · small line ("Comment PROJECT To Book"). It fades in. Tagline: **"Learn It. Build It. Own It."** (user confirmed, 6 Nov).
+10. **Pill spine stays** (`1/4 · TOPIC + FEATURES` …) for numbered points; one TXT-KEY per point, 2 lines max, one `*emphasis*` box.
+11. **Watch the cut frame by frame before handing it over** (contact sheet + check the audio for gaps with silencedetect).
 
 ### B2. Text styles (TXT). Hand-typed only, **never auto-captions**
 | Code | Use | Style | Max words | On screen |
@@ -88,8 +103,8 @@ Rule of thumb: on screen for ≥1 s, + 0.25 s per word. Animate in over 4–6 fr
 ### B3. Cuts and motion (CUT)
 | Code | Meaning |
 |---|---|
-| **CUT-JUMP** | Remove pauses >0.25 s, breaths and "um"s, keeping 2–4 frames of handle. Never cut mid-word |
-| **CUT-PUNCH** | Hard punch-in to 115–125 % on the emphasised word, or alternating 100/115 at each sentence |
+| **CUT-JUMP** | Remove pauses >0.25 s, breaths and "um"s, keeping 2–4 frames of handle. Never cut mid-word. **Since 6 Nov: never inside a sentence on a talking piece; trim only before the first and after the last word (B0)** |
+| **CUT-PUNCH** | ~~Hard punch-in to 115–125 %~~ **Not used since 6 Nov** (user: reads as a random cut, see B0) |
 | **CUT-INS** | Cut to insert/B-roll for 1–3 s the moment the thing is named (audio keeps running = J/L cut, 6–12 frames) |
 | **CUT-HOLD** | Let a continuous action shot run (build/print/fail) with **no cuts** while it keeps changing (Formula rule 5) |
 | **CUT-SPEED** | Speed up a slow process 2–8× (timelapse), add a small "×4" TXT-LABEL |
@@ -105,9 +120,9 @@ Rule of thumb: on screen for ≥1 s, + 0.25 s per word. Animate in over 4–6 fr
 
 ### B5. Fixed elements (every reel)
 - Small logo watermark (`pipeline/assets/logo_transparent.png`), top-left inside the safe zone, 60 % opacity.
-- Thin progress bar (built into build_reel.py).
+- ~~Thin progress bar~~: **off** since 6 Nov (user preference). `progress_bar: true` only if asked.
 - End card (last 1.5–2 s): logo + handle. **TXT-CTA keyword card only on lead reels (DROP, PIW)**. Value reels (SRV, AIB) use a spoken/caption ask only (big-page validation). **Exception:** loop reels (Human) have no end card.
-- **Series signature:** each series keeps the same pill style, key-word colour, progress bar and end card, so the grid and the feed read as a set.
+- **Series signature:** each series keeps the same pill style, key-word colour and end card, so the grid and the feed read as a set.
 - Grade: white balance first, mild contrast and saturation, the same preset on every reel.
 
 ### B6. Transitions (TRN). Default = hard cut. Every transition must have a reason
@@ -123,7 +138,8 @@ Rule of thumb: on screen for ≥1 s, + 0.25 s per word. Animate in over 4–6 fr
 | **TRN-SPEED** | Speed ramp 1× → 4–8× → 1× | ramp 6 frames each side | Long process (print, solder, assemble) | SND-NAT sped up, or a music swell |
 | **TRN-FREEZE** | Freeze frame 0.5–1.0 s + TXT-LABEL | 0.5–1.0 s | Point at a detail ("this sensor") | SND-POP |
 | **TRN-NONE (loop)** | Last frame flows into the first frame | — | F4 Human loops | — |
-Banned: dissolves/crossfades on talking heads, spins, page curls, glitch packs. They read as "template" and slow the pace.
+| **TRN-FADE** | Soft cross-dissolve | 0.35 s | **Default between talking-head clips (approved 6 Nov, see B0)** | none |
+Banned: spins, page curls, glitch packs. *(Crossfades were banned here before 6 Nov; the user tested and prefers TRN-FADE between clips, so it is now the default. Long or slow dissolves are still out.)*
 
 ### B7. Clip-duration rules (how long each shot stays on screen)
 | Shot type | Min | Typical | Max before a change | Notes |
@@ -370,6 +386,20 @@ Rules for writing read-mode lines:
 - After the last take of each beat: say nothing, stop, and start the next file (clean files = fast, accurate editing)
 - Mark your best take by saying "**keep**" right after it, or by renaming it `_KEEP`. Otherwise the editor uses the last take
 
+### D4c. AS SAID: what was actually said on camera (fill in after the shoot, before editing)
+The script is the plan; this block is the truth. **Source = the user/Shawn listing what each clip says** (never Whisper: Manglish breaks it). Everything on screen, the fact sheet, the caption and the replies must match THIS block, not the plan.
+| Beat | Clip file (`_KEEP`) | Length / speech | What was said (Manglish, as the user wrote it) | Meaning in English | Same as script? (✅ / changed / new / dropped) | Facts or text affected |
+|---|---|---|---|---|---|---|
+| B1 | `<REEL>_B1_KEEP.mp4` | __ s · speech __–__ s | "…" | "…" | | |
+| B2 | | | | | | |
+| … | | | | | | |
+```
+CONFIRMED BY:   ____ (who listed the lines) on __ ____     
+NOT SAID:       planned lines that were never recorded (e.g. the spoken ask) → carried by on-screen text / caption instead
+EXTRA SAID:     anything new (new point, new claim) → add to the fact sheet before it goes on screen
+UNCLEAR:        parts nobody could confirm (e.g. a second phrase in B1) → keep text generic there
+```
+
 ### D5. PUBLISHING PACK (written with the script, posted with the reel)
 ```
 CAPTION:
@@ -407,7 +437,7 @@ Trial variant vs main: ____ · What worked / what to change next: ____
 | Code | Format | Series | Beat skeleton | Shots Shawn needs | Difficulty |
 |---|---|---|---|---|---|
 | **F1** | **Result-first build** | PIW | B0 demo working (FR-INS) + TXT-HOOK → B1 Shawn CU tension line → B2 "3 parts" → B3 build steps as CUT-HOLD/CUT-SPEED inserts with Shawn VO → B4 demo again, closer → B5 `PROJECT` | Demo ×2 angles, 3–4 build inserts, CU lines | Easy–medium |
-| **F2** | **Talking head + kinetic text** | SRV | B0 Shawn CU mid-gesture + TXT-HOOK (FEAR/QUESTION) → B3 3 points, each a TXT-KEY + CUT-PUNCH, optional screenshot insert → B4 one-line takeaway → B5 send-to-friend | CAM-A A-roll only (+ 1–2 screenshots) | Easy |
+| **F2** | **Talking head + kinetic text** | SRV | B0 Shawn CU mid-gesture + TXT-HOOK (FEAR/QUESTION) → B3 3 points, each a TXT-KEY + OVL-PILL (no punch, see B0), optional screenshot insert → B4 one-line takeaway → B5 send-to-friend | CAM-A A-roll only (+ 1–2 screenshots) | Easy |
 | **F3** | **Opportunity Drop** | DROP | B0 Shawn MS holding the phone + "₹__K stipend" TXT-HOOK → B3 3 × (TXT-CARD + FR-SCR listing + Shawn reaction line) → B4 best pick → B5 `INTERN` | A-roll, 3 screen captures | Easy |
 | **F4** | **Single-shot fail / moment** | HUM | B0 the moment already happening (CUT-HOLD, SND-NAT) + one sarcastic TXT-HOOK held the whole time → optional B4 Shawn POS-REACT → loop, no end card | One continuous shot (keep the camera rolling on the bench!) | Easiest |
 | **F5** | **Not-as-simple-as-it-looks** | AIB / PIW | B0 finished object or screen + TXT-HOOK "Looks simple? Think again." → B3 reveal 3 hidden parts (inserts + TXT-LABEL) → B4 the full thing working → B5 save/`TOOL` | Inserts + screen capture, little A-roll | Easy |
@@ -423,6 +453,8 @@ Trial variant vs main: ____ · What worked / what to change next: ____
 4. Leave the camera rolling on the bench during builds, because fails make the best F4 reels.
 5. Record room tone at every set. Log any problem in a `shoot_notes.txt` next to the files.
 6. File naming: `<shoot date YYYY-MM-DD>/<REEL NAME>_<beat>_t<take>.mp4`, or one long file per set plus slates.
+7. **Camera: 30 fps, "Auto FPS" OFF.** The 6 Nov clips were 60 fps variable frame rate: fine in Google Drive and in our pipeline, but the sound drifted off the lips in some PC players. (If it happens again: the pipeline is safe; for other editors make steady 30 fps copies.)
+8. **If Shawn talks freestyle instead of to the script, that's fine:** the user tells us what each clip says, and we fill in D4c and rebuild the beats, text, facts and caption from what was actually said.
 
 ## PART G: Pre-publish QC (editor ticks before handing to Shawn)
 - [ ] First frame = subject in action + TXT-HOOK visible at 0.0 s

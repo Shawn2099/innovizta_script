@@ -1,5 +1,5 @@
 # LAUNCH1: Launch reel #1 "Why we started The Project Shop"
-*(Posts Mon 16 Nov. Shoot 10 Nov (footage in `vidoes/2026-11-10/`).)*
+*(Posts Mon 16 Nov. Shot early 6 Nov (improv, footage in `vidoes/2026-11-10/`). **v2: D0–D3, D4c, D5 and the editor block match the shot reel; SETUP, shot table, D4, D4b are the unused v1 plan.**)*
 
 ## SETUP AT A GLANCE (read this the day before)
 **Where:** the workshop. **You STAND** in front of the desk with the 3D printer, the same spot as the Day 1 video. The printer is **about 1 m behind you, on YOUR LEFT** (it shows on the **right side of the picture**, as in Day 1).
@@ -52,96 +52,81 @@ TOP VIEW
 
 ---
 
-## D0. READ THIS FIRST: the whole reel in plain English
-**What this reel is about (one sentence):** "Last season we helped 30 teams, and they all got stuck in the same 3 places. That's why we started The Project Shop."
-**Why we're making it:** it's the first reel on the page. It tells students who we are using *proof* (30 real teams), not a sales pitch, and it ends by asking them to comment, so we learn their problems.
-**Your role:** you're a senior who's been through it, talking to a junior. Calm and confident, a little bit "bro". Not a salesman, not a teacher.
-**Length:** about 45 seconds. 7 short pieces (beats). You record each piece separately, 3 times (the first one 5 times).
+## D0. READ THIS FIRST: the whole reel in plain English (v2, as shot 6 Nov)
+**What this reel is about (one sentence):** "Last season we helped about 80 student teams, and the same 3 problems kept pushing students toward readymade projects. We started The Project Shop to finish YOUR project WITH you and make you interview ready."
+**Why we're making it:** first reel on the page. Proof (80 real teams) and a clear reason we exist, not a sales pitch. It ends by asking which problem they faced, so we learn their language.
+**How it was shot:** improv, seated in the lab, 7 clips in Shawn's own words (see D4c). The v1 standing/props plan below (shot table, D4, D4b) was not used and is kept for reference only.
+**Length:** 30 s (27.6 s talk + 2 s end card).
 
-**About the Manglish lines below:** they're a *suggestion*, and my Malayalam isn't perfect. **Read the English meaning, then say it in your own natural Manglish.** Keep the meaning, the order and roughly the length. Don't worry about matching my words.
-
-| # | Time | What you SAY (meaning in English) | What it's for | How to ACT (simple) | What the viewer SEES on screen |
-|---|---|---|---|---|---|
-| **B1** | 0–3 s | "Last season, we helped 30 teams with their projects." | The hook. A real number makes people stop scrolling | Stay on your tape mark (the editor zooms in, don't step closer). **Hold the demo board up next to your face** before you start talking. Eyebrows slightly up, like you're about to tell a secret. Start talking straight away, no "hi guys" | Big text: **"30 TEAMS. SAME 3 PROBLEMS."** |
-| **B2** | 3–8 s | "And every one of them got stuck in the same THREE places. I'm Shawn, from The Project Shop." | Opens the question "which 3?" so they keep watching. Then says who you are | Lower the board, relax your shoulders. Say "THREE" a bit stronger. Say your name casually, like meeting someone, not like an announcement | Small label: "Shawn · The Project Shop" |
-| **B3a** | 8–16 s | "One: you don't know WHAT project to do. And nobody tells you a topic that connects to your career." | Problem 1 (topic) | Hold up **1 finger** when you say "One". Slight frustrated face, like "you know this feeling" | Pill at the top: "1/3 · TOPIC" + a quick shot of a notebook with crossed-out ideas |
-| **B3b** | 16–25 s | "Two: the circuit doesn't WORK. Review is close, and the sensor gives no response." | Problem 2 (build) | **Hold the board still at chest height** for 2 seconds, then point at it. Small sigh or "ugh" face, like a real moment | Pill: "2/3 · BUILD" + close-up of the board and multimeter |
-| **B3c** | 25–33 s | "Three: the project is ready… but when the panel asks, you can't EXPLAIN it." | Problem 3 (viva). The most emotional one | Small head shake. Slow down. Pause after "ready…" | Pill: "3/3 · VIVA" |
-| **B4** | 33–40 s | "That's why we started The Project Shop. To build it WITH you, and teach you, so you understand it." | The answer / the reason we exist | **Lean a little closer. Slower, sincere, warm.** This is the heart of the reel. Don't rush | Text: **"BUILT WITH YOU. OWNED BY YOU."** + a shot of the 3D printer working |
-| **B5** | 40–44 s | "Which one is your team stuck on? One, two or three? Comment." | The ask. Gets comments (tells us their real problem) | **Smile.** Show 1, 2, 3 fingers as you say them, then point down (to the comments) | Text: "1, 2 OR 3?" |
-| B6 | 44–46 s | (nothing; end card) | — | — | Logo + "Learn it. Build it. Own it." |
-
-**Before you record, check:** demo board in hand (labels taped over) · iPhone at your eye level, 1.1 m away · you're **standing, waist-up** in frame · tube lights ON, nearest one in front of you · wireless mic clipped on, receiver in the iPhone · teleprompter phone under the lens.
-**While recording:** read the line on the teleprompter, **look up into the camera lens**, then say it. Wait 1 second before and after each line. Mess up? Just start that sentence again. Each piece is its own file.
+| # | Time | What Shawn SAYS (meaning) | What the viewer SEES |
+|---|---|---|---|
+| B1 | 0–3 s | Last season we helped about 80 student teams | Hook: **80 STUDENT TEAMS. SAME PROBLEMS.** |
+| B2 | 3–5 s | These are the common problems we saw | THE COMMON ONES |
+| B3 | 5–11 s | Faculty push students into topics that may not fit their career | Pill 1/3 · FORCED TOPIC + "NOT RELEVANT TO YOUR CAREER" |
+| B4 | 11–14 s | Students come with projects too heavy to carry | Pill 2/3 · TOO HEAVY + "TOO HEAVY TO CARRY" |
+| B5 | 14–17 s | Dream projects, but no expertise to build them | Pill 3/3 · NO EXPERTISE + "DREAM PROJECT, NO EXPERTISE" |
+| B6 | 17–20 s | That's why students turn to readymade projects | "SO THEY TAKE THE SHORTCUT" (the word "readymade" is never on screen) |
+| B7 | 20–28 s | Instead, we complete YOUR project WITH you, your way, and make you interview ready. That's why we started The Project Shop | "BUILT WITH YOU, YOUR WAY" → "INTERVIEW READY" |
+| End | 28–30 s | — | Logo · Learn It. Build It. Own It. · **Which One Did You Face? Comment 1, 2 Or 3** |
 
 ---
 
 ## D1. Header
 ```
 REEL ID:       LAUNCH1   (reel name = tracking code = clip prefix)
-SERIES:        STO (Story / launch)       FORMAT: F6 story + OVL-PILL spine (numbered promise)
-TARGET LENGTH: 45 s        SET: SET-WS (workshop bench, 3D printer visible behind)
+SERIES:        STO (Story / launch)       FORMAT: F6 story + OVL-PILL spine (numbered problems)
+LENGTH:        30 s (v2 as shot)          SET: lab, seated (improv, 6 Nov)
 HOOK TYPE:     ACCESS/PROOF + NUMBERED-PROMISE
 KTU MOMENT:    S8 teams about to start Project Phase II (~1 Dec)     MONTH CTA (Nov): follow + free consult
-ONE ASK:       Comment your stuck point: "1, 2 or 3" (engagement + learn their language). Spoken + caption only, NO CTA card (value reel)
-SEND TEST:     "A S7/S8 student sends this to their project partner because it names the exact 3 problems their team has"
-HOOKS:         8 written · best = 12/12 · Trial variant = 10/12   (see §D2)
-GATES:         Script QA 93/100 · Ethics gate [x] all yes (once the VERIFY items are confirmed)
+ONE ASK:       "Which one did you face? Comment 1, 2 or 3" (end card + caption + pinned comment)
+SEND TEST:     "A S7/S8 student sends this to their project partner because problem 1, 2 or 3 is exactly their team"
+GATES:         Ethics gate [x] (readymade only named as what we are NOT; no college/teacher named; 80 confirmed)
 GOAL METRIC:   comments + follows
-COVER:         "WHY WE STARTED" (see D3)
-CAPTION L1:    "KTU final year project problems: what 30 teams taught us"
+COVER:         "WHY WE STARTED" (see D3) · file vidoes/2026-11-10/cover_LAUNCH1.jpg
+CAPTION L1:    "KTU final year project problems: what 80 student teams taught us"
 HASHTAGS (≤5): #ktu #finalyearproject #btech #keralaengineers #engineeringstudents
 LOCATION TAG:  [office town: Kottayam / Kochi / Karunagappally]
 ```
 
 ## D1b. Control, facts and readiness
 ```
-STATUS:        draft v1 → waiting for Shawn's approval        AUTHOR: Claude (Opus)
+STATUS:        v2 edit APPROVED by the user 6 Nov · publishing pack v2 ready      AUTHOR: Claude (Opus)
 VALID UNTIL:   evergreen (the "last season" wording stays true until the next season ends)
 TRACKING CODE: LAUNCH1  (WhatsApp pre-filled message: "Hi, saw LAUNCH1")
-PERMISSIONS:   [x] no client faces/names shown  [ ] people in the background OK  [x] own office
-READY-BEFORE-SHOOT: [ ] Innovizta demo build board, labels taped over  [ ] 3D printer printing (start 15 min before)
-PLAN B:        if the printer/prop fails → keep rolling; film it for a HUM reel. Shoot with any real board
-WORD COUNT:    ~100 spoken words ÷ 2.7 ≈ 37 s + pauses/inserts ≈ 44 s ✅
-PRONUNCIATION: "Project Shop" in English · "review", "viva", "panel", "career" in English
-ON-SCREEN TEXT LANGUAGE: English caps (short, readable)
+PERMISSIONS:   [x] no client faces/names shown  [x] nobody else in frame  [x] own lab
+FINAL FILES:   vidoes/2026-11-10/LAUNCH1_final.mp4 · vidoes/2026-11-10/cover_LAUNCH1.jpg
 ```
-**Fact sheet** (Shawn: tick or correct each one before shooting)
+**Fact sheet** (Shawn: tick each one before posting)
 | # | Claim (as said/shown) | Proof / source | OK? |
 |---|---|---|---|
-| F1 | "Kazhinja season 30 teams-ne project-il help cheythu" | Founder answer, 6 Nov 2026: 30 clients last season | [ ] |
-| F2 | "Ellarum stuck aayath oree moonnu sthalathaanu" (topic / build / viva) | **VERIFY:** Shawn's own experience. Change the 3 if your real top 3 differ | [ ] |
-| F3 | "KTU B.Tech kazhinju, ippo M.Tech cheyyunnu" | Company notes (founders are KTU grads, now M.Tech) | [ ] |
-| F4 | "Ninte koode build cheyyaan, ninne padippikkaan" | Offer: project class included, "build with you" | [ ] |
+| F1 | "Kazhinja season nammal ekadhesham 80 student teams-ine help cheythu" | Founder answer, 6 Nov 2026: 80 student teams last season (corrected from 30) | [x] |
+| F2 | The 3 common problems: forced topic · too heavy · dream project without expertise | Shawn's own experience with last season's teams (his words on camera) | [ ] |
+| F3 | "Faculty force cheythu topic edupikkunnu" | Shawn's observation; general, no college or teacher named | [ ] |
+| F4 | "Ningalude project ningalodoppam … complete cheythu interview ready aakkaan" | Offer: built with the team + a class teaching them their project (+ internship on it) | [ ] |
 
 ## D2. HOOK block
 ```
 HOOK TYPE:      ACCESS/PROOF + NUMBERED-PROMISE
-B0 VISUAL:      SET-WS · CAM-A · FR-CU · POS-HOOK. Shawn already mid-gesture, holding a real project board up next to his face, workshop/3D printer behind
-ON-SCREEN TEXT: "30 TEAMS. SAME 3 PROBLEMS."   (TXT-HOOK, visible at 0.0 s)
-SPOKEN LINE:    "Kazhinja season 30 teams-ne project-il help cheythu."
-MUTE TEST:      [x] works without sound (the text carries the promise)
-SCORE:          Gap 2 · Spec 2 · Truth 2 (F1) · Fit 2 · Voice 2 · Pull 2 = 12/12
-TRIAL VARIANT:  text "FINAL YEAR PROJECT? WATCH THIS." / spoken "Final year project-il ellarum stuck aakunna 3 sthalangal." = 10/12 (Gap 2, Spec 1, Truth 2, Fit 2, Voice 1, Pull 2)
+B1 VISUAL:      seated, smiling straight to the lens, hands together, lab shelves behind
+ON-SCREEN TEXT: "80 STUDENT TEAMS. SAME PROBLEMS."   (TXT-HOOK, visible at 0.0 s)
+SPOKEN LINE:    "Kazhinja season nammal ekadhesham 80 student teams-ine help cheythu."
+MUTE TEST:      [x] works without sound (text + pills carry the story)
+TRIAL VARIANT:  text only (same footage): "3 PROJECT TRAPS. WHICH ONE IS YOURS?"
 ```
-Other hooks considered: "Njan enthinu The Project Shop thudangi?" (8, starts with "I") · "Readymade project vaangunnathinu munp…" (9, preachy) · "KTU project panic real aanu" (7, vague) · "Ee board kandaal ninakku review orma varum?" (9) · "3 problems, 1 solution" (8) · "Ithu njangalude workshop" (9, proof but no gap).
 
 ## D3. THUMBNAIL / COVER block
 ```
-COVER TYPE:     dedicated cover photo (shot on the day)
-SHOT:           CAM-A · FR-CU, face ≥40 % of frame height · eyes on the upper third · POS-HOOK
-EXPRESSION:     slight "seriously?" half-smile, eyebrows up
-PROP:           the same project board held next to the face, sharp
-COVER TEXT:     "WHY WE STARTED"   (teaser, not the hook text)
-LAYOUT:         STO series: white caps, orange underline, upper third
-SAFE AREA:      face + text inside the centre 1080×1350
-FILE:           cover_LAUNCH1.jpg
+COVER TYPE:     full-screen graphic, no face (user's choice, 7 Nov): "engineering notebook" look, matches LAUNCH2
+COVER TEXT:     handwritten "why we started" + huge "80 TEAMS." on an orange highlighter stroke
+                + sticky note (tape label "the same 3 problems") with circled 1/2/3: forced topic / too heavy / no expertise
+                + small logo (the 1/2/3 matches the end-card ask "comment 1, 2 or 3")
+FILE:           vidoes/2026-11-10/cover_LAUNCH1.jpg  (pipeline/cover_notebook.py <out> --kicker "why we started" --hero "80 TEAMS." --note "forced topic" "too heavy" "no expertise" --tape "the same 3 problems" --mark num)
 ```
 
-## Shot table
+## Shot table *(v1 plan, not used: the reel was improvised, see D0 + D4c)*
 | Beat | Time (s) | Dur | SET / CAM / FR | POS / action | Spoken line (verbatim) | Text | Insert / B-roll | TRN in | CUT / SND / OVL | Editor note |
 |---|---|---|---|---|---|---|---|---|---|---|
-| B1 | 0.0–3.0 | 3.0 | WS / A / CU | POS-HOOK, board raised, eyebrows up | "Kazhinja season 30 teams-ne project-il help cheythu." | TXT-HOOK "30 TEAMS. SAME 3 PROBLEMS." 0.0→3.0 | — | — | SND-HIT at 0 · punch 118 % on "30" | B0 and B1 are one take |
+| B1 | 0.0–3.0 | 3.0 | WS / A / CU | POS-HOOK, board raised, eyebrows up | "Kazhinja season 80 teams-ne project-il help cheythu." | TXT-HOOK "80 TEAMS. SAME 3 PROBLEMS." 0.0→3.0 | — | — | SND-HIT at 0 · punch 118 % on "80" | B0 and B1 are one take |
 | B2 | 3.0–8.0 | 5.0 | WS / A / MCU | POS-EXPL, lower the board | "Ellarum stuck aayath oree MOONNU sthalathaanu." [pause] "Njan Shawn, The Project Shop." | TXT-LABEL "Shawn · The Project Shop" 1.5→4.0 | — | TRN-CUT | punch on "MOONNU" | |
 | B3.1 | 8.0–16.0 | 8.0 | WS / A / MCU | POS-POINT, 1 finger up | "Onnu: ENTHU project cheyyanam ennu ariyilla." [pause] "Career-umaayi connect aakunna topic aarum parayilla." | — | INS notebook with crossed-out topic ideas, 2 s at 4.0 | TRN-PUNCH | OVL-PILL "1/3 · TOPIC" · SND-POP | |
 | B3.2 | 16.0–25.0 | 9.0 | WS / A / MS | POS-DEMO: hold the board still, then point at it | "Randu: circuit WORK aavunnilla." [pause] "Review aduthu, sensor response illa." | — | INS CAM-C close-up of the board + multimeter, 2.5 s at 3.0 | TRN-WHIP | OVL-PILL "2/3 · BUILD" · SND-WHOOSH | |
@@ -178,7 +163,7 @@ Rename your best take of each beat to …_KEEP.mp4 (otherwise the highest take n
 ## D4b. READ MODE (load this into the teleprompter)
 ```
 B1   [LEAN IN. Board up next to your face. Eyebrows up.]
-     "Kazhinja season 30 teams-ne project-il help cheythu."
+     "Kazhinja season 80 teams-ne project-il help cheythu."
 B2   [Sit back. Lower the board. Relaxed.]
      "Ellarum stuck aayath oree MOONNU sthalathaanu."
      [pause]
@@ -203,33 +188,111 @@ B5   [Smile. Show 1-2-3 fingers. Point down.]
      "Ninte team ethil aanu stuck? One, two, or three? Comment cheyyu."
 ```
 
-## D5. PUBLISHING PACK
+## D5. PUBLISHING PACK (v2, matches the shot reel)
 ```
 CAPTION:
-  KTU final year project problems: what 30 teams taught us
-  Topic, build, viva: ivide aanu mostly teams stuck aakunnath.
-  Njangal ninte koode build cheyyum, ninne padippikkum. Ninte project, ninte ownership.
-  Ninte team ethil aanu stuck? 1, 2 or 3, comment cheyyu 👇
+  KTU final year project problems: what 80 student teams taught us
+  Kazhinja season 80 teams-inte koode work cheythappol kanda 3 problems:
+  1. Faculty thanna topic, ninte career-umaayi oru connection-um illa
+  2. Eduthal pongaatha project
+  3. Dream project, pakshe build cheyyaan expertise illa
+  Ithokke kondaanu palarum shortcut edukkunnathu. Njangal athu cheyyilla:
+  ninte project, ninte koode build cheyyum, ninne padippichu interview ready aakkum.
+  Ningal face cheythathu ethaa? 1, 2 or 3, comment cheyyu 👇
   #ktu #finalyearproject #btech #keralaengineers #engineeringstudents
-ALT TEXT:       "Shawn from The Project Shop holding a circuit board in a workshop, explaining 3 common final year project problems"
+ALT TEXT:       "Shawn from The Project Shop, seated in an electronics lab, explaining 3 common final year project problems"
+COVER:          vidoes/2026-11-10/cover_LAUNCH1.jpg (upload as the cover; check the grid preview shows face + text)
 LOCATION TAG:   [office town]
 COLLAB:         [ ] none (optional: Clueless Engineer collab)
-PINNED COMMENT: "Ninte team ethil stuck aanu: 1, 2 or 3? Njan ellarkkum reply cheyyaam 🙌"
+PINNED COMMENT: "Ningal face cheythathu ethaa: 1, 2 or 3? Ellarkkum reply cheyyaam 🙌"
 MANYCHAT:       none on this reel (no keyword)
-TRIAL REEL:     [x] yes, variant hook from D2
-STORY PLAN:     +1 h: share to story with a poll "Ninte biggest project tension? Topic / Build / Viva"
-POST SLOT:      launch week, Mon 7–8 pm (first post on the account)
-MUSIC:          none or a low licensed bed (Instagram library for business) · SFX from the pipeline
+TRIAL REEL:     [x] yes, text-only variant from D2
+STORY PLAN:     +1 h: share to story with a poll sticker "Ninte biggest project tension?"
+                options: Forced topic / Too heavy / No expertise
+POST SLOT:      Mon 16 Nov, 7–8 pm (first post on the account)
+MUSIC:          none or a low licensed bed (Instagram library for business)
 PREPARED REPLIES:
-  "1"  → "Topic aanu ellarkkum first wall 😅 Next reel-il easy aayi topic edukkunna method parayaam. Follow cheyyu!"
-  "2"  → "Circuit drama real aanu 😂 Ninte project enthaanu? Comment cheyyu, quick tip tharaam"
-  "3"  → "Viva fear common aanu. Ninte project ninakku explain cheyyaan pattanam, athaanu main. Viva tips coming 🙌"
+  "1"  → "Forced topic aanenkilum career-umaayi connect cheyyaan vazhi undaakum. Free 1-hr consult-il nokkaam, DM cheyyu 🙌"
+  "2"  → "Bhaaram koodiya project-um cheriya steps aakki plan cheyyaam. Ninte project enthaanu? Comment cheyyu 👇"
+  "3"  → "Expertise illa ennu karuthi dream project vidanda. Njangal koode build cheyyum, ninne padippikkum 🙌"
+  "readymade tharumo?" → "Illa bro, readymade cheyyilla. Ninte koode build cheyyum, ninakku viva-il explain cheyyaan pattunna reethiyil 🙌"
   "price ethra?" → "Free 1-hr team consult und bro, DM cheyyu 🙌"
-REPURPOSE:      [ ] YouTube Short (clean export)  [ ] pin this reel  [ ] each comment answer becomes a future F7 reel
+REPURPOSE:      [ ] YouTube Short (clean export)  [ ] pin this reel  [ ] each 1/2/3 answer becomes a future reply-to-comment reel
 ```
+
+## D4c. AS SAID (improv shoot, 6 Nov; Shawn's own words; clips renamed LAUNCH1_B1..B7_KEEP, originals in `originals_phone_names/`)
+| Beat | Spoken (Shawn's Manglish) | Meaning |
+|---|---|---|
+| B1 | Kazhinja season nammal ekadhesham 80 student teamsine help cheythu | Last season we helped about 80 student teams |
+| B2 | Athil common aayi kanda prashnangal ithokkeyaanu | These are the common problems we saw |
+| B3 | Faculty pala students-ine-um force cheythu topic edupikkunnu… aa topic ningalkku chilappol relevant aakanamennilla | Faculty push many students into a topic that may not be relevant to them |
+| B4 | Eduthal pongaatha bhaaram ulla projects kondaanu students njangade aduthu varunnathu | Students come to us with projects too heavy for them to carry |
+| B5 | Aagraham kondu edukkunna projects chilappol cheyyaanulla expertise students-inu kaanilla | Dream projects they pick, they sometimes lack the expertise to build |
+| B6 | Ithellam kondaanu kuttikal readymade projects-ilekku thiriyunnathu | That's why students turn to readymade projects |
+| B7 | Baakki sthalangalile pole readymade projects-inu pakaram ningalude project ningalodoppam, ningal aagrahicha reethiyil, ningal chinthicha pole complete cheythu ningale interview ready aakkaan vendiyaanu Project Shop njangal undaakkiyathu | Instead of readymade like elsewhere, we complete YOUR project WITH you, the way you wanted, to make you interview ready. That's why we started The Project Shop |
+
+*v1 plan above (topic/build/viva, standing, props) was replaced by this improv. Old v1 editor block kept below as a comment for reference.*
+
 
 ## Editor block (for pipeline/reel_assemble.py)
 ```yaml
+# v2 (6 Nov): rebuilt from the improv footage (7 clips, Shawn's own words, seated). Edit style = LAUNCH2 v2:
+#   no punch-zooms, no mid-sentence jump cuts, soft fades, no progress bar, text low on the chest, end card v2.
+id: LAUNCH1
+length_s: 30
+source_dir: vidoes/2026-11-10/
+progress_bar: false
+beats:
+  - id: B1
+    clip: {file: LAUNCH1_B1, in: auto, out: 3.0, crop: 115, jumpcut: false}
+    transition_in: TRN-CUT
+    text: [{style: TXT-HOOK, words: "80 STUDENT TEAMS.
+*SAME PROBLEMS.*", in: 0.0, out: 3.0, y: 1000}]
+    sfx: SND-HIT
+  - id: B2
+    clip: {file: LAUNCH1_B2, in: auto, out: 2.0, crop: 115, jumpcut: false}
+    transition_in: TRN-FADE
+    text: [{style: TXT-KEY, words: "THE *COMMON* ONES", in: 0.2, out: 2.0, y: 1200}]
+  - id: B3
+    clip: {file: LAUNCH1_B3, in: auto, out: 6.1, crop: 115, jumpcut: false}
+    transition_in: TRN-FADE
+    overlays: [{type: OVL-PILL, words: "1/3 · FORCED TOPIC"}]
+    text: [{style: TXT-KEY, words: "NOT RELEVANT TO
+*YOUR CAREER*", in: 2.8, out: 6.1, y: 1200}]
+    sfx: SND-POP
+  - id: B4
+    clip: {file: LAUNCH1_B4, in: auto, out: 3.5, crop: 115, jumpcut: false}
+    transition_in: TRN-FADE
+    overlays: [{type: OVL-PILL, words: "2/3 · TOO HEAVY"}]
+    text: [{style: TXT-KEY, words: "TOO *HEAVY*
+TO CARRY", in: 0.6, out: 3.5, y: 1200}]
+    sfx: SND-POP
+  - id: B5
+    clip: {file: LAUNCH1_B5, in: auto, out: 3.6, crop: 115, jumpcut: false}
+    transition_in: TRN-FADE
+    overlays: [{type: OVL-PILL, words: "3/3 · NO EXPERTISE"}]
+    text: [{style: TXT-KEY, words: "DREAM PROJECT,
+*NO EXPERTISE*", in: 0.6, out: 3.6, y: 1200}]
+    sfx: SND-POP
+  - id: B6
+    clip: {file: LAUNCH1_B6, in: auto, out: 2.9, crop: 115, jumpcut: false}
+    transition_in: TRN-FADE
+    text: [{style: TXT-KEY, words: "SO THEY TAKE
+THE *SHORTCUT*", in: 0.5, out: 2.9, y: 1200}]
+  - id: B7
+    clip: {file: LAUNCH1_B7, in: auto, out: 8.6, crop: 115, jumpcut: false}
+    transition_in: TRN-FADE
+    text:
+      - {style: TXT-KEY, words: "BUILT *WITH YOU*,
+YOUR WAY", in: 1.2, out: 5.9, y: 1200}
+      - {style: TXT-KEY, words: "*INTERVIEW READY*", in: 6.2, out: 8.6, y: 1200}
+    sfx: SND-POP
+music: {file: null, level_lufs: -26, duck_db: 4}
+end_card: {show: true, line2: "Learn It. Build It. Own It.", line3: "Which One Did You Face?", line4: "Comment 1, 2 Or 3"}
+export: {lufs: -14, fps: 30, safe_bottom: 1480}
+```
+<!-- v1 editor block (replaced 6 Nov)
+```text
 # Shot wide (head to waist, 4K); clip crop = editor zoom: CU 150 / MCU 125 / MS 100; punch = base + 20
 id: LAUNCH1
 length_s: 45
@@ -238,7 +301,7 @@ beats:
   - id: B1
     clip: {file: LAUNCH1_B1, in: auto, out: auto, crop: 150, speed: 1.0}
     transition_in: TRN-CUT
-    text: [{style: TXT-HOOK, words: "30 TEAMS.\nSAME 3 PROBLEMS.", in: 0.0, out: 3.0}]
+    text: [{style: TXT-HOOK, words: "80 TEAMS.\nSAME 3 PROBLEMS.", in: 0.0, out: 3.0}]
     punches: [[0.3, 1.2]]
     sfx: SND-HIT
     punch_crop: 170
@@ -282,6 +345,7 @@ music: {file: null, level_lufs: -26, duck_db: 4}
 end_card: {show: true, line1: "The Project Shop", line2: "Learn it. Build it. Own it.", line3: ""}
 export: {lufs: -14, fps: 30}
 ```
+-->
 *Render: `pipeline/.venv/Scripts/python.exe pipeline/reel_assemble.py 04_reel_production/scripts/2026-11-16_LAUNCH1_why-we-started.md` → QC report + frames → Shawn watches → post manually.*
 
 ## D6. Result log (48 h after posting)

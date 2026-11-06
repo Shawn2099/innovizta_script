@@ -92,7 +92,7 @@ Pinned reels: #1, the latest Opportunity Drop, and #2.
 ---
 
 ## 3A. Showing work when there are no active clients (honest version of "fake it till you make it")
-Fine (it's real): **past projects** from last season's 30 teams (with permission, names blurred), **demo builds you make in-house** ("we built this to show what's possible"), **Innovizta builds**, your **tools** (diagram automation), the **workshop and process**, and the real number **"30 teams last season"**.
+Fine (it's real): **past projects** from last season's 80 teams (with permission, names blurred), **demo builds you make in-house** ("we built this to show what's possible"), **Innovizta builds**, your **tools** (diagram automation), the **workshop and process**, and the real number **"80 teams last season"**.
 Not fine: implying they're current clients, "our student built this" when they didn't, made-up numbers, reviews or screenshots. One student calling it out in the comments costs more trust than the reel ever earns, and trust is your whole moat.
 **Upside:** demo builds become **Project Idea of the Week** content, **YouTube full-build videos**, and **kits you can sell**. One build gives you three assets.
 
@@ -105,7 +105,7 @@ Not fine: implying they're current clients, "our student built this" when they d
 **Unit economics:** one ₹25K project pays for about 8 months of the ₹3K budget. Once a channel brings even one paid team, scale it (see section 6).
 
 ## 3C. Fast start: customers in the next 30 days (Instagram takes 2–3 months to build)
-1. **Reactivate the 30 teams from last season.** That's where your word of mouth came from, and it stopped because those students left. WhatsApp each one personally:
+1. **Reactivate the 80 teams from last season.** That's where your word of mouth came from, and it stopped because those students left. WhatsApp each one personally:
    - ask for (a) permission to show their project, (b) a 10-second clip or photo if they still have it, (c) **referrals to juniors** (same ₹1,000 per team, paid to them)
    - each alum knows the S7/S8 batch below them
 2. **Broadcast/Status on WhatsApp Business:** "Free 1-hour project consultation for S7/S8 teams this month."

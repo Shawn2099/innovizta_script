@@ -33,7 +33,7 @@ v1 · 6 Nov 2026 · The Project Shop · single host (Shawn), phone + tripod + la
 | 12 | **Stay in the niche and stay true.** Every claim is real for Shawn/TPS. No fake stats, results or urgency | Our data (rule 7), every skill's ethics section, our positioning |
 | 13 | **Show access or proof in the first 2 s, and an evidence card by 10–15 s.** Our workshop, a real build, a real price, a real screenshot. "What we built/saw" beats "what I think" | Big pages: Arsh (5.9M), Ankur, Tanay, Shaz |
 | 14 | **Give long reels a visible spine:** a numbered-promise pill (1/5, 2/5…) changing every 8–15 s | Big pages: Ankur (3.4–3.7M) |
-| 15 | **Brand every series the same way:** the same pill, progress bar, key-word colour and end card | Big pages: Tanay, Ankur |
+| 15 | **Brand every series the same way:** the same pill, key-word colour and end card (no progress bar since 6 Nov) | Big pages: Tanay, Ankur |
 
 ---
 

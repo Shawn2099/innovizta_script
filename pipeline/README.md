@@ -24,6 +24,9 @@ timed text overlays, soft pop sound effects, top progress bar, outlined logo, lo
 Run Python as `.venv/Scripts/python.exe -I script.py ...`.
 
 ## Scripts
+- `cover_notebook.py <out.jpg> --kicker … --hero … --note … --tape …`: full-screen no-face cover, hand-made "engineering notebook" look (graph paper, highlighter, sticky-note checklist, logo). Preferred cover style since 7 Nov.
+- `make_cover.py <clip> <t> <out.jpg> "LINE 1" "LINE 2"`: reel cover from a frame (3:4 grid-safe). Default `--style fun`: tilted sticker text, last line on an orange box, `--badge FREE`; `--zoom/--cx/--top` crop in on wide shots; `--style plain` = old look.
+- `analyse_footage.py <shoot folder>`: run once per shoot (`-X utf8`). If the folder has `improv_script.md` (`clip N: …`), Whisper is skipped and the script lines go into the index (`--whisper` forces Whisper anyway for a cross-check). Caches a contact sheet + rough Whisper (ml + English gist) per clip in `<folder>/_analysis/`, plus a `FOOTAGE.md` index. Clips already done are skipped, so read the cache instead of re-running. Local CPU only, no API cost. `--no-whisper` gives sheets only.
 - `build_reel.py`: main builder (hook, zoom, text overlays, SFX, progress bar, logo, loop fade or end card).
 - `clean_cut.py`: silence removal and time mapping.
 - `reel.py transcribe <video> [--lang en]`: rough SRT/transcript (reference only). `words.py` gives word timestamps (large-v3).
@@ -77,8 +80,8 @@ export: {lufs: -14, fps: 30}
 ` = two lines. Text auto-shrinks (then wraps, with a warning) to stay inside x 60..920 (centred, so max width 760 px) and y 270..1250. A hook shares the beat with OVL-PILL: it moves down 60 px.
 - Text position (any style): `y: 1000` = top of the text block in px, or `pos: top|upper|mid` (top = style default, upper = 1180, mid = 900; presets are lifted to stay above y 1250). With neither, face avoidance runs: OpenCV Haar frontal-face detection on the beat's first frame (after crop/scale to 1080x1920); if the text box is within 40 px of the face it moves below the face (else to `upper`) and the QC notes say so. Needs `opencv-python-headless<5` in the venv (v5 dropped CascadeClassifier); skipped with a note if missing.
 - Logo: stays top-left (x 60..230, y 275..445). It is hidden automatically only while an OVL-PILL or text item overlaps that box, so it never collides; the QC notes list the hidden windows.
-- Transitions: WHIP = xfade slideleft 0.15 s, ZOOMIN = xfade zoomin 0.3 s (both overlap, so total is shorter), FLASH = 0.1 s white flash (ignored on beat 1, warns if used twice), PUNCH = whole beat at punch_crop, SPEED uses clip `speed`.
-- Fixed elements: logo top-left (60 % opacity), orange progress bar, 2 s end card, synthesized SFX (build_reel.py).
+- Transitions: FADE = soft cross-dissolve 0.35 s (preferred by the user, 6 Nov), WHIP = xfade slideleft 0.15 s, ZOOMIN = xfade zoomin 0.3 s (both overlap, so total is shorter), FLASH = 0.1 s white flash (ignored on beat 1, warns if used twice), PUNCH = whole beat at punch_crop, SPEED uses clip `speed`.
+- Fixed elements: logo top-left (60 % opacity), 2 s end card, synthesized SFX (build_reel.py). Progress bar is OFF by default (`progress_bar: true` to turn it on). End card v2: `end_card: {line2: tagline, line3: text in the orange box, line4: optional small line}`, Title Case, fades in. `export: {safe_bottom: 1480}` lowers the text limit for organic Reels (default 1250 = ads-safe).
 - QC flags: beats >8 s with no punch/insert/text change (warning), >4 s (note), SFX closer than 3 s, word-count limits, missing clips.
 - Limitations: no TRN-FREEZE, OVL-ARROW/CIRCLE/PIP/SPLIT/EVIDENCE/BLUR, TXT-CARD; ducking amount is approximate; fps fixed at 30.
 

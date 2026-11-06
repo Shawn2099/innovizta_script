@@ -485,7 +485,7 @@ def hits_logo(x0, y0, x1, y1, pad=20):
 
 
 # ------------------------------------------------------------------ transitions
-TRN_KNOWN = {"TRN-CUT", "TRN-PUNCH", "TRN-WHIP", "TRN-ZOOMIN", "TRN-FLASH", "TRN-SPEED"}
+TRN_KNOWN = {"TRN-CUT", "TRN-PUNCH", "TRN-WHIP", "TRN-ZOOMIN", "TRN-FLASH", "TRN-SPEED", "TRN-FADE"}
 TRN_CUTLIKE = {"TRN-JL", "TRN-MATCH", "TRN-NONE", "NONE", "TRN-FREEZE"}
 
 
@@ -708,7 +708,7 @@ def main():
     ap.add_argument("--keep-work", action="store_true")
     ap.add_argument("--text-engine", choices=["ass", "drawtext"], help="text renderer (default ass = libass; or export.text_engine)")
     a = ap.parse_args()
-    global TEXT_ENGINE
+    global TEXT_ENGINE, SAFE_B
 
     spec = load_script(a.script)
     rid = str(spec.get("id", "reel"))
@@ -719,6 +719,7 @@ def main():
     out = os.path.abspath(a.out) if a.out else os.path.join(src, f"{rid}_final.mp4")
     outdir = os.path.dirname(out); os.makedirs(outdir, exist_ok=True)
     exp = spec.get("export") or {}
+    SAFE_B = int(exp.get("safe_bottom", SAFE_B))   # bottom text limit (default 1250 = ads-safe; organic Reels ~1480)
     lufs = float(exp.get("lufs", -14)); fps = int(exp.get("fps", FPS_DEFAULT))
     if fps != FPS_DEFAULT: warn(f"export.fps={fps} ignored, rendering at {FPS_DEFAULT}")
     TEXT_ENGINE = str(a.text_engine or exp.get("text_engine") or "ass").lower()
@@ -727,7 +728,7 @@ def main():
     NOTES.append(f"text engine: {TEXT_ENGINE}")
     beats = spec["beats"]
     work = tempfile.mkdtemp(prefix="reelasm_")
-    if TEXT_ENGINE == "ass":
+    if True:   # fonts are needed by the ASS text engine and by the end card
         os.makedirs(os.path.join(work, "fonts"))
         for fn_ in os.listdir(FONTS_DIR):
             if fn_.lower().endswith(".ttf"): shutil.copy(os.path.join(FONTS_DIR, fn_), os.path.join(work, "fonts", fn_))
@@ -752,6 +753,7 @@ def main():
             kind, d = "cut", 0.0
             if trn == "TRN-WHIP": kind, d, xf = "x", 0.15, "slideleft"
             elif trn == "TRN-ZOOMIN": kind, d, xf = "x", 0.3, "zoomin"
+            elif trn == "TRN-FADE": kind, d, xf = "x", 0.35, "fade"       # soft cross-dissolve
             if kind == "x" and (s["dur"] < d * 2 or segs[i-1]["dur"] < d * 2):
                 warn(f"beat {s['id']}: too short for {trn}, using cut"); kind, d = "cut", 0.0
             if trn == "TRN-FLASH":
@@ -859,8 +861,11 @@ def main():
             cur = f"[fl{n}]"
         nseg = len(segs)
         logo_i, logo2_i = nseg, nseg + 1
-        vf.append(f"color=c={ORANGE}:s={W_}x12:r={FPS_DEFAULT}:d={main_dur:.3f}[bar]")
-        vf.append(f"{cur}[bar]overlay=x='-W+W*t/{main_dur:.3f}':y=0[bb]")
+        if spec.get("progress_bar", False):        # off by default since 6 Nov 2026 (user preference)
+            vf.append(f"color=c={ORANGE}:s={W_}x12:r={FPS_DEFAULT}:d={main_dur:.3f}[bar]")
+            vf.append(f"{cur}[bar]overlay=x='-W+W*t/{main_dur:.3f}':y=0[bb]")
+        else:
+            vf.append(f"{cur}null[bb]")
         vf.append(f"[{logo_i}:v]scale=170:-1,format=rgba,colorchannelmixer=aa=0.6[lg]")
         hid = [(s_["start"] + a_, s_["start"] + b_) for s_ in segs for a_, b_ in s_["hides"]]
         en = ("" if not hid else ":enable='not(" + "+".join(f"between(t,{a_:.3f},{b_:.3f})" for a_, b_ in hid) + ")'")
@@ -868,17 +873,20 @@ def main():
         vf.append(f"[bb][lg]overlay=60:275{en}[vmain]")
         ec = spec.get("end_card") or {}
         if ec.get("show", True):
-            l1 = str(ec.get("line1", "The Project Shop")); l2 = str(ec.get("line2", "Learn it. Build it. Own it."))
-            l3 = str(ec.get("line3", "Follow for more"))
-            for n, (s_, sz) in enumerate(((l1, 58), (l2, 58), (l3, 70))):
+            # end card v2: white, big logo, tagline in Montserrat, orange offer box, optional small 4th line; content fades in
+            l2 = str(ec.get("line2", "Learn It. Build It. Own It.")); l3 = str(ec.get("line3", "Follow For More"))
+            l4 = str(ec.get("line4", "") or "")
+            for n, s_ in enumerate((l2, l3, l4)):
                 open(os.path.join(work, f"end{n}.txt"), "w", encoding="utf-8").write(s_)
-            ft = f"fontfile='{FONT}'"
+            fx = "fontfile=fonts/Montserrat-ExtraBold.ttf"; fb = "fontfile=fonts/Montserrat-Black.ttf"
             vf.append(f"color=c=white:s={W_}x{H_}:r={FPS_DEFAULT}:d={END_DUR},setsar=1,format=yuv420p[ebg]")
-            vf.append(f"[{logo2_i}:v]scale=700:-1,format=rgba[lgbig]")
-            vf.append(f"[ebg][lgbig]overlay=(W-w)/2:360,"
-                      f"drawtext={ft}:textfile=end0.txt:fontsize=58:fontcolor=black:x=(w-text_w)/2:y=800,"
-                      f"drawtext={ft}:textfile=end1.txt:fontsize=58:fontcolor={ORANGE}:x=(w-text_w)/2:y=880,"
-                      f"drawtext={ft}:textfile=end2.txt:fontsize=70:fontcolor=black:x=(w-text_w)/2:y=1040[end]")
+            vf.append(f"[{logo2_i}:v]scale=820:-1,format=rgba[lgbig]")
+            chain = (f"[ebg][lgbig]overlay=(W-w)/2:430,"
+                     f"drawtext={fb}:textfile=end0.txt:fontsize=62:fontcolor=0x1a1a1a:x=(w-text_w)/2:y=1010,"
+                     f"drawbox=x=110:y=1120:w={W_-220}:h=128:color={ORANGE}:t=fill,"
+                     f"drawtext={fx}:textfile=end1.txt:fontsize=46:fontcolor=white:x=(w-text_w)/2:y=1120+(128-text_h)/2")
+            if l4: chain += f",drawtext={fx}:textfile=end2.txt:fontsize=44:fontcolor=0x555555:x=(w-text_w)/2:y=1300"
+            vf.append(chain + f",fade=t=in:st=0:d=0.35:color=white[end]")
             vf.append(f"[vmain]format=yuv420p[vm2]")
             vf.append(f"[vm2][end]concat=n=2:v=1:a=0[vall]")
         else:

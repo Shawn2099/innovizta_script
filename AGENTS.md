@@ -6,7 +6,7 @@ Last updated: 6 Nov 2026.
 - **The Project Shop** (theprojectshop.online): Kerala company giving **final-year project mentoring** to KTU B.Tech/M.Tech teams (CS, EC, EEE, robotics; software, IoT, hardware + simulation; no civil/heavy mechanical). Also kits, components, **3D printing at cost (PLA ₹5/g, PETG ₹8/g)**, PCB, and student tools in development (diagram/report automation).
 - **Offer:** free 1-hour Google Meet consult per team → project from ₹15K (typically ~₹25K) incl. circuit diagram, data points and a class teaching the team their project → internship on their own project (small fee). **Referral:** internship free + ₹1K off per referred team.
 - **People:** founders are KTU B.Tech grads, now M.Tech students. **Shawn is the only one on camera.** Sister brands: Clueless Engineer (Shawn's BTS/vlog page, ~100 followers, collab only on relevant reels) · Innovizta Technologies (separate B2B; its builds may appear as "projects our interns work on").
-- **Situation (Nov 2026):** 30 clients last season (word of mouth, now exhausted), 0 this season so far (5 this calendar year). Instagram account **not yet created**. Website is a "coming soon" page. Capacity 10–30 teams/month. Promotion budget ≤ ₹3K/month.
+- **Situation (Nov 2026):** 80 student teams helped last season (word of mouth, now exhausted; corrected from 30 by the user, 6 Nov), 0 this season so far (5 this calendar year). Instagram account **not yet created**. Website is a "coming soon" page. Capacity 10–30 teams/month. Promotion budget ≤ ₹3K/month.
 - **Goal:** best project-mentoring company in India → **own KTU/Kerala first in Manglish** (Kottayam, Ernakulam, Karunagappally/Kollam), English/national from ~Sep 2027. Finish line 30 Apr 2027: ~16 paid teams, 20+ Google reviews, a July waitlist.
 
 ## 2. Hard rules (never break)
@@ -37,7 +37,7 @@ Last updated: 6 Nov 2026.
 | `04_reel_production/CONTENT_CALENDAR.md` | **Dated plan + status: the source of truth for "today"** |
 | `04_reel_production/scripts/` | One file per reel (`<post date>_<REEL NAME>_<topic>.md`, e.g. `2026-11-16_LAUNCH1_why-we-started.md`) |
 | `04_reel_production/series/` | Series details (Opportunity Drop) |
-| `pipeline/` | Tools: `build_reel.py` (single-clip reel builder), `reel_assemble.py` (YAML → final reel, one step), `reel_breakdown.py` (contact sheets + metrics), `reel.py`, `clean_cut.py` … Run with `pipeline/.venv/Scripts/python.exe` |
+| `pipeline/` | Tools: `build_reel.py` (single-clip reel builder), `reel_assemble.py` (YAML → final reel, one step), `reel_breakdown.py` (contact sheets + metrics), `analyse_footage.py` (run once per shoot folder: cached sheets + rough transcript in `<folder>/_analysis/`), `reel.py`, `clean_cut.py` … Run with `pipeline/.venv/Scripts/python.exe` |
 | `vidoes/` | Our raw footage (typo'd name kept). New shoots: `vidoes/<shoot date YYYY-MM-DD>/` |
 | `instagram/` | Brand voice for the OpenCode `ig-*` skills (don't move) |
 | `05_founder_inputs/` | Handwritten founder notes |
@@ -55,18 +55,26 @@ Last updated: 6 Nov 2026.
 5. After any change: update `CONTENT_CALENDAR.md` status, and the relevant workstream in `00_PLAN_INDEX.md`.
 
 ## 5. Workflow for one reel (end to end)
-Script (playbook + template) → Shawn approves and ticks the fact sheet → **shoot in Read Mode** (teleprompter under the lens, one file per beat: `<REEL NAME>_<beat>_t<n>.mp4`, e.g. `LAUNCH1_B1_t2.mp4`, best take renamed `_KEEP`) → copy to `vidoes/<shoot date YYYY-MM-DD>/` → `reel_assemble.py scripts/<script file>.md` → QC (template Part G + QC frames) → the user watches and posts manually → fill in D6 results after 48 h → Sunday review.
+Script (playbook + template) → Shawn approves and ticks the fact sheet → **shoot in Read Mode** (teleprompter under the lens, one file per beat: `<REEL NAME>_<beat>_t<n>.mp4`, e.g. `LAUNCH1_B1_t2.mp4`, best take renamed `_KEEP`) → copy to `vidoes/<shoot date YYYY-MM-DD>/` → **footage intake** (below) → **fill D4c "As said"** → `reel_assemble.py scripts/<script file>.md` → QC (template Part G + QC frames) → the user watches and posts manually → fill in D6 results after 48 h → Sunday review.
+
+**Footage intake (every new shoot folder):**
+1. If Shawn improvised, he saves `improv_script.md` in the shoot folder (`clip 1: …`, `clip 2: …`; clip N = Nth file in phone-time order).
+2. Run `pipeline/.venv/Scripts/python.exe -I -X utf8 pipeline/analyse_footage.py vidoes/<shoot date>`. **Script present → Whisper is skipped** (the script is the truth). **No script → rough Whisper runs automatically** (ml + English gist). Results are cached in `<folder>/_analysis/` (contact sheets, per-clip JSON, `FOOTAGE.md`); never re-run, read the cache.
+3. A **Haiku subagent** (`model: "haiku"`) reads `FOOTAGE.md` + contact sheets and returns: clip → beat mapping, English meaning per clip, usable speech in/out times, problems (fluffs, cut-off words, framing/lighting, claims that need the fact sheet or break a hard rule). The main session checks it, asks the user about anything unclear, then renames clips `<REEL>_B<n>_KEEP.mp4` (originals to `originals_phone_names/`) and fills D4c.
+4. Without a script, the Whisper text is a draft: the user confirms what was said before D4c is final.
+
+**Edit style:** follow template Part B0 (approved by the user on LAUNCH2, 6 Nov): no punch-zooms, no mid-sentence jump cuts, TRN-FADE between clips, text low on the chest, no progress bar, end card v2. Watch every cut frame by frame before handing it over.
 
 ## 6. Current state / next actions (update this list)
 - ✅ Research done: competitors, formula (validated on 6 big pages), playbook, template, KTU calendar, visibility plan.
 - ✅ `build_reel.py` fixed (no flash by default, safe-zone hook).
 - ✅ `reel_assemble.py` (YAML → final reel) built and tested on synthetic clips: take selection, silence trim/jump cuts, portrait .MOV, punches, inserts, TXT-HOOK/KEY/LABEL/CTA, OVL-PILL/COUNT, TRN-CUT/PUNCH/WHIP/ZOOMIN/FLASH/SPEED, SFX, ducked music, -14 LUFS, logo, progress bar, end card, QC report + frames, `--preview`. **Not yet supported:** TRN-FREEZE, OVL-ARROW/CIRCLE/PIP/SPLIT/EVIDENCE/BLUR, TXT-CARD (warns and skips). Not yet tested on real phone footage. Do the test shoot first.
-- ✅ First script: `scripts/2026-11-16_LAUNCH1_why-we-started.md` (launch reel 1), **waiting for Shawn to approve + tick the fact sheet**.
+- ✅ LAUNCH1 shot early (6 Nov, improv, seated, 7 clips in `vidoes/2026-11-10/`, words in `improv_script.md`). 3 problems are now forced topic / too heavy / no expertise → "built with you, interview ready". Edit v2 `LAUNCH1_final.mp4` (30 s, LAUNCH2 style) **approved by the user 6 Nov**; publishing pack v2 + cover `cover_LAUNCH1.jpg` done. Shawn ticks F2–F4, then post 16 Nov. F1 = 80 teams (confirmed).
 - ☐ Setup week (9–14 Nov): Instagram account, website v1, Google Business Profile + 5 reviews, ManyChat, YouTube.
 - ✅ Animated ASS text engine is the default in `reel_assemble.py` (Anton, word pop, `*emphasis*` orange box). v3 render waiting for Shawn's verdict.
 - ✅ Launch week scripted: LAUNCH1, SURVIVAL1, DROP1 (shoot all 3 on 10 Nov, run sheet `04_reel_production/shoot_days/2026-11-10_SHOOT-DAY.md`) + LAUNCH2. All wait for Shawn's approval + fact ticks.
 - ✅ Week 2 scripted: LAUNCH2, SURVIVAL2, LAUNCH3 + run sheet `shoot_days/2026-11-17_SHOOT-DAY.md`. Manglish guide: `04_reel_production/MANGLISH_GUIDE.md`.
 - ✅ **Naming changed 6 Nov:** scripts are `scripts/<post date>_<REEL NAME>_<topic>.md` (LAUNCH1, SURVIVAL1, DROP1 …), footage `vidoes/<shoot date YYYY-MM-DD>/`. Old TPS-YYMMDD-… IDs are gone.
-- ⚠ LAUNCH2 (free consult) was shot early on 6 Nov, freestyle (sitting, own words, no props): 5 clips in `vidoes/2026-11-06/` (`Day 4/` = identical copy). Next: Shawn lists what each clip says → rebuild the LAUNCH2 script to match → edit (first real-footage pipeline test). Its 4 B-roll shots are on the 17 Nov sheet.
+- ⚠ LAUNCH2 (free consult) was shot early on 6 Nov, freestyle (sitting, own words, no props): 5 clips in `vidoes/2026-11-06/` (`Day 4/` = identical copy). Script v2 rebuilt from the footage, **edit approved by the user (6 Nov)**; end-card tagline stays "Learn It. Build It. Own It." (confirmed 6 Nov). Cut (`vidoes/2026-11-06/LAUNCH2_final.mp4`, 47 s: no punch-zooms, soft fades, no progress bar, lower text, CTA + free-consultation line, end card v2). Waiting for Shawn to watch + tick F3–F5. Its 4 B-roll shots are on the 17 Nov sheet.
 - ☐ DROP2: research + script ~14–15 Nov. ☐ Thu carousels (19, 26 Nov) from SURVIVAL1/SURVIVAL2 facts.
 - Open questions for the user: Instagram handle choice · student tool roadmap · website builder/platform · first demo build.
