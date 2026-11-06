@@ -56,6 +56,7 @@ Target areas now: **Kottayam · Ernakulam · Karunagappally/Kollam.** Shawn is t
 - **Done:** 26 competitor reels downloaded and analysed → `REEL_FORMULA.md` + `REEL_SCRIPT_TEMPLATE.md`
 - **Done:** validation on 30 reels from 6 big face-cam pages → rules adjusted (length, ask, title hooks) + laws 13–15 · comment language bank seeded · Read Mode (teleprompter) added
 - **Done:** `build_reel.py` fixed (no flash by default, safe-zone hook, new end card)
+- **Done (6–7 Nov):** LAUNCH1 + LAUNCH2 edits approved · notebook cover style (`pipeline/cover_notebook.py`) · footage intake (`analyse_footage.py`, improv_script.md) · December scripts SURVIVAL3, HUM1 (+HUM2 spare), PIW1 (seated improv set)
 - **To build (ask first):** one-step YAML → final-reel renderer · move the top-right logo into the safe zone · right-margin check
 
 ### 4. Opportunity Drop (internships + certifications)

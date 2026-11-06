@@ -29,4 +29,7 @@ Nov 2026 is a setup month: 3 reels/week (Mon/Wed/Fri). 4/week from December.
 | 27 Nov | Fri | POST Opportunity Drop #02 | DROP2 | ☐ research + script ~14–15 Nov (fresh listings), shoot 17 Nov |
 | 28–29 Nov | Sat–Sun | **Clinic Live #1** (self-hosted Google Meet/IG Live: "Plan your Phase II") + bank 6 December reels | — | ☐ |
 | 30 Nov | Mon | POST launch reel 3: "3 things we'll never do" | LAUNCH · LAUNCH3 | ✅ script drafted (F2 no-copies + F3 till-viva must be real policy) |
+| 2 Dec | Wed | POST Survival #3: "Phase II, week by week, to your first review" | SURVIVAL · SURVIVAL3 | ✅ script drafted 7 Nov (seated improv; F1 KTU calendar, F5, F6 to confirm) · shoot 10 or 17 Nov |
+| 5 Dec | Sat | POST Humour #1: POV "so what's the novelty?" (silent loop) | HUM · HUM1 | ✅ script drafted 7 Nov (+ spare HUM2 "nee present cheyyu") · shoot 10 or 17 Nov |
+| 7 Dec | Mon | POST Project Idea of the Week #1: ESP32 energy monitor | PIW · PIW1 | ✅ script drafted 7 Nov (parts only, no demo yet; F1–F4 to tick) · needs ManyChat PROJECT + idea sheet · shoot 10 or 17 Nov |
 | Dec | — | Phase II starts (~1 Dec): PIW ×2/week, ads from Dec, free tool #1, Clinic Live #2 | see 6_MONTH_PLAN | ☐ |
