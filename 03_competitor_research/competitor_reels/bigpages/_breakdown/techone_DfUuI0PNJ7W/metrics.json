@@ -1,0 +1,15 @@
+{
+ "name": "techone_DfUuI0PNJ7W",
+ "account": "techone",
+ "code": "DfUuI0PNJ7W",
+ "duration_s": 49.8,
+ "width": 720,
+ "height": 1280,
+ "cuts": 13,
+ "cuts_per_10s": 2.61,
+ "first_cut_s": 1.43,
+ "avg_shot_s": 3.56,
+ "voiced_ratio": 1.0,
+ "mean_db": -16.5,
+ "has_audio": true
+}

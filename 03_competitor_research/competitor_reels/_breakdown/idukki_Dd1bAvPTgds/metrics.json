@@ -1,0 +1,15 @@
+{
+ "name": "idukki_Dd1bAvPTgds",
+ "account": "idukki",
+ "code": "Dd1bAvPTgds",
+ "duration_s": 87.5,
+ "width": 720,
+ "height": 1280,
+ "cuts": 0,
+ "cuts_per_10s": 0.0,
+ "first_cut_s": null,
+ "avg_shot_s": 87.53,
+ "voiced_ratio": 1.0,
+ "mean_db": -18.1,
+ "has_audio": true
+}

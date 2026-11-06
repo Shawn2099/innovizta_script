@@ -1,0 +1,15 @@
+{
+ "name": "bbx_DeeiU-HTu1u",
+ "account": "bbx",
+ "code": "DeeiU-HTu1u",
+ "duration_s": 31.8,
+ "width": 720,
+ "height": 1280,
+ "cuts": 0,
+ "cuts_per_10s": 0.0,
+ "first_cut_s": null,
+ "avg_shot_s": 31.81,
+ "voiced_ratio": 1.0,
+ "mean_db": -17.0,
+ "has_audio": true
+}

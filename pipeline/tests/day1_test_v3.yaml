@@ -1,0 +1,48 @@
+id: VAL-DAY1-V3
+length_s: 48
+source_dir: vidoes/DAY1/
+beats:
+  - id: B1
+    clip: {file: day1, in: 29.2, out: 32.9, crop: 100}
+    transition_in: TRN-CUT
+    text: [{style: TXT-HOOK, words: "BUILDING ISN'T\nTHE *HARD PART.*", in: 0.0, out: 3.7}]
+    punches: [[1.6, 3.0]]
+    punch_crop: 115
+    sfx: SND-HIT
+  - id: B2
+    clip: {file: day1, in: 32.9, out: 46.5, crop: 100}
+    transition_in: TRN-PUNCH
+    punch_crop: 110
+    overlays: [{type: OVL-PILL, words: "THE REAL PROBLEM"}]
+    text:
+      - {style: TXT-KEY, words: "REPORT", in: 0.3, out: 1.8}
+      - {style: TXT-KEY, words: "PAPER", in: 1.8, out: 3.2}
+      - {style: TXT-KEY, words: "*GRAPHS* + DATA", in: 3.2, out: 5.6}
+      - {style: TXT-KEY, words: "HOW TO PRESENT IT", in: 5.6, out: 9.0}
+      - {style: TXT-KEY, words: "A *PUBLISHABLE* PAPER", in: 9.5, out: 13.0}
+    sfx: SND-POP
+  - id: B3
+    clip: {file: day1, in: 46.5, out: 50.0, crop: 100}
+    transition_in: TRN-CUT
+    text: [{style: TXT-LABEL, words: "We faced it too", in: 0.3, out: 3.3}]
+  - id: B4
+    clip: {file: day1, in: 50.0, out: 60.3, crop: 100}
+    transition_in: TRN-ZOOMIN
+    text: [{style: TXT-KEY, words: "MANY TEAMS.\nREAL FEEDBACK.", in: 0.5, out: 4.5}, {style: TXT-KEY, words: "SO WE BUILT *TOOLS.*", in: 4.8, out: 9.8}]
+    punches: [[4.8, 6.5]]
+    punch_crop: 118
+    sfx: SND-WHOOSH
+  - id: B5
+    clip: {file: day1, in: 60.3, out: 65.8, crop: 100}
+    transition_in: TRN-WHIP
+    text: [{style: TXT-LABEL, words: "Now: M.Tech, KTU", in: 0.5, out: 4.5}]
+  - id: B6
+    clip: {file: day1, in: 71.4, out: 83.0, crop: 100}
+    transition_in: TRN-CUT
+    text: [{style: TXT-KEY, words: "TOOLS FOR EVERY\nDATA POINT", in: 1.0, out: 6.0}, {style: TXT-KEY, words: "DAY 1 OF\nBUILDING IT", in: 8.0, out: 11.5}]
+    punches: [[6.5, 8.0]]
+    punch_crop: 115
+    sfx: SND-POP
+music: {file: null, level_lufs: -26, duck_db: 4}
+end_card: {show: true, line1: "The Project Shop", line2: "Learn it. Build it. Own it.", line3: "Follow for more"}
+export: {lufs: -14, fps: 30}

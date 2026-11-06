@@ -1,0 +1,15 @@
+{
+ "name": "tanay_CtzOsiNLhZQ",
+ "account": "tanay",
+ "code": "CtzOsiNLhZQ",
+ "duration_s": 37.6,
+ "width": 720,
+ "height": 1280,
+ "cuts": 5,
+ "cuts_per_10s": 1.33,
+ "first_cut_s": 14.33,
+ "avg_shot_s": 6.27,
+ "voiced_ratio": 0.95,
+ "mean_db": -15.4,
+ "has_audio": true
+}

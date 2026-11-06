@@ -1,0 +1,15 @@
+{
+ "name": "rober_DT6PyH5E8LJ",
+ "account": "rober",
+ "code": "DT6PyH5E8LJ",
+ "duration_s": 22.3,
+ "width": 720,
+ "height": 1278,
+ "cuts": 0,
+ "cuts_per_10s": 0.0,
+ "first_cut_s": null,
+ "avg_shot_s": 22.31,
+ "voiced_ratio": 1.0,
+ "mean_db": -18.5,
+ "has_audio": true
+}

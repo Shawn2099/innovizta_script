@@ -1,0 +1,15 @@
+{
+ "name": "shazzam_De0skc4SDAN",
+ "account": "shazzam",
+ "code": "De0skc4SDAN",
+ "duration_s": 169.0,
+ "width": 720,
+ "height": 1280,
+ "cuts": 21,
+ "cuts_per_10s": 1.24,
+ "first_cut_s": 5.23,
+ "avg_shot_s": 7.68,
+ "voiced_ratio": 1.0,
+ "mean_db": -16.7,
+ "has_audio": true
+}

@@ -1,0 +1,15 @@
+{
+ "name": "flemin_DZzZ4JtTnqP",
+ "account": "flemin",
+ "code": "DZzZ4JtTnqP",
+ "duration_s": 57.0,
+ "width": 720,
+ "height": 1280,
+ "cuts": 0,
+ "cuts_per_10s": 0.0,
+ "first_cut_s": null,
+ "avg_shot_s": 56.98,
+ "voiced_ratio": 1.0,
+ "mean_db": -17.2,
+ "has_audio": true
+}

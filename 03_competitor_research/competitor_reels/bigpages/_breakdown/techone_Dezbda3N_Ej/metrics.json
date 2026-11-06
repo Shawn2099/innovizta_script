@@ -1,0 +1,15 @@
+{
+ "name": "techone_Dezbda3N_Ej",
+ "account": "techone",
+ "code": "Dezbda3N_Ej",
+ "duration_s": 36.7,
+ "width": 720,
+ "height": 1280,
+ "cuts": 13,
+ "cuts_per_10s": 3.54,
+ "first_cut_s": 0.57,
+ "avg_shot_s": 2.62,
+ "voiced_ratio": 1.0,
+ "mean_db": -16.5,
+ "has_audio": true
+}

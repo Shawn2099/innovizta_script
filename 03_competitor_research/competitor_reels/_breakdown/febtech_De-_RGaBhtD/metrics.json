@@ -1,0 +1,15 @@
+{
+ "name": "febtech_De-_RGaBhtD",
+ "account": "febtech",
+ "code": "De-_RGaBhtD",
+ "duration_s": 16.6,
+ "width": 720,
+ "height": 1280,
+ "cuts": 1,
+ "cuts_per_10s": 0.6,
+ "first_cut_s": 11.03,
+ "avg_shot_s": 8.31,
+ "voiced_ratio": 1.0,
+ "mean_db": -17.2,
+ "has_audio": true
+}

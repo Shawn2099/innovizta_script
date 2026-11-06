@@ -1,0 +1,15 @@
+{
+ "name": "arsh_DZEjSNEhqdb",
+ "account": "arsh",
+ "code": "DZEjSNEhqdb",
+ "duration_s": 106.3,
+ "width": 720,
+ "height": 1280,
+ "cuts": 5,
+ "cuts_per_10s": 0.47,
+ "first_cut_s": 3.13,
+ "avg_shot_s": 17.72,
+ "voiced_ratio": 1.0,
+ "mean_db": -18.8,
+ "has_audio": true
+}

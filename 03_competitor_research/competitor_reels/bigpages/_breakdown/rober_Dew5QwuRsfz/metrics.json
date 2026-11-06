@@ -1,0 +1,15 @@
+{
+ "name": "rober_Dew5QwuRsfz",
+ "account": "rober",
+ "code": "Dew5QwuRsfz",
+ "duration_s": 80.4,
+ "width": 720,
+ "height": 1280,
+ "cuts": 28,
+ "cuts_per_10s": 3.48,
+ "first_cut_s": 1.88,
+ "avg_shot_s": 2.77,
+ "voiced_ratio": 1.0,
+ "mean_db": -17.0,
+ "has_audio": true
+}

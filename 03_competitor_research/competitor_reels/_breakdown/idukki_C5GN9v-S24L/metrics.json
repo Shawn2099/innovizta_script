@@ -1,0 +1,15 @@
+{
+ "name": "idukki_C5GN9v-S24L",
+ "account": "idukki",
+ "code": "C5GN9v-S24L",
+ "duration_s": 90.1,
+ "width": 720,
+ "height": 1280,
+ "cuts": 1,
+ "cuts_per_10s": 0.11,
+ "first_cut_s": 64.03,
+ "avg_shot_s": 45.07,
+ "voiced_ratio": 1.0,
+ "mean_db": -23.7,
+ "has_audio": true
+}

@@ -1,0 +1,15 @@
+{
+ "name": "flemin_DfExM1czmEk",
+ "account": "flemin",
+ "code": "DfExM1czmEk",
+ "duration_s": 22.9,
+ "width": 720,
+ "height": 1280,
+ "cuts": 1,
+ "cuts_per_10s": 0.44,
+ "first_cut_s": 0.27,
+ "avg_shot_s": 11.47,
+ "voiced_ratio": 1.0,
+ "mean_db": -17.7,
+ "has_audio": true
+}

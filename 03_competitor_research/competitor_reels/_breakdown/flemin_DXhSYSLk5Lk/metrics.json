@@ -1,0 +1,15 @@
+{
+ "name": "flemin_DXhSYSLk5Lk",
+ "account": "flemin",
+ "code": "DXhSYSLk5Lk",
+ "duration_s": 56.9,
+ "width": 720,
+ "height": 1280,
+ "cuts": 4,
+ "cuts_per_10s": 0.7,
+ "first_cut_s": 41.17,
+ "avg_shot_s": 11.39,
+ "voiced_ratio": 1.0,
+ "mean_db": -17.0,
+ "has_audio": true
+}

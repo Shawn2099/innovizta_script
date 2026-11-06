@@ -1,0 +1,15 @@
+{
+ "name": "shazzam_DfCgch6ux8c",
+ "account": "shazzam",
+ "code": "DfCgch6ux8c",
+ "duration_s": 54.6,
+ "width": 720,
+ "height": 1280,
+ "cuts": 4,
+ "cuts_per_10s": 0.73,
+ "first_cut_s": 11.93,
+ "avg_shot_s": 10.91,
+ "voiced_ratio": 0.79,
+ "mean_db": -20.0,
+ "has_audio": true
+}

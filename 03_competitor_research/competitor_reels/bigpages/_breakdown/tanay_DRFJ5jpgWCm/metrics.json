@@ -1,0 +1,15 @@
+{
+ "name": "tanay_DRFJ5jpgWCm",
+ "account": "tanay",
+ "code": "DRFJ5jpgWCm",
+ "duration_s": 72.4,
+ "width": 720,
+ "height": 1280,
+ "cuts": 12,
+ "cuts_per_10s": 1.66,
+ "first_cut_s": 0.21,
+ "avg_shot_s": 5.57,
+ "voiced_ratio": 1.0,
+ "mean_db": -16.7,
+ "has_audio": true
+}

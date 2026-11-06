@@ -1,0 +1,15 @@
+{
+ "name": "tanay_CpxjSyaq_8k",
+ "account": "tanay",
+ "code": "CpxjSyaq_8k",
+ "duration_s": 31.2,
+ "width": 720,
+ "height": 1280,
+ "cuts": 3,
+ "cuts_per_10s": 0.96,
+ "first_cut_s": 8.97,
+ "avg_shot_s": 7.8,
+ "voiced_ratio": 0.94,
+ "mean_db": -18.3,
+ "has_audio": true
+}

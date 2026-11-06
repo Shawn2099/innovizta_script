@@ -1,0 +1,15 @@
+{
+ "name": "febtech_DfUjWRsPX2u",
+ "account": "febtech",
+ "code": "DfUjWRsPX2u",
+ "duration_s": 30.1,
+ "width": 720,
+ "height": 1280,
+ "cuts": 1,
+ "cuts_per_10s": 0.33,
+ "first_cut_s": 8.63,
+ "avg_shot_s": 15.06,
+ "voiced_ratio": 0.98,
+ "mean_db": -16.7,
+ "has_audio": true
+}

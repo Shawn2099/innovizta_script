@@ -1,0 +1,6 @@
+{
+  "enabledPlugins": {
+    "social-media-skills@anthropic-plugin-directory": true,
+    "social-media-skills@social-media-skills": true
+  }
+}

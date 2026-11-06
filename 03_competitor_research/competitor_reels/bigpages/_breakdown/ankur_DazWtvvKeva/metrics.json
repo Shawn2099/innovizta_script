@@ -1,0 +1,15 @@
+{
+ "name": "ankur_DazWtvvKeva",
+ "account": "ankur",
+ "code": "DazWtvvKeva",
+ "duration_s": 84.4,
+ "width": 720,
+ "height": 1280,
+ "cuts": 12,
+ "cuts_per_10s": 1.42,
+ "first_cut_s": 8.47,
+ "avg_shot_s": 6.5,
+ "voiced_ratio": 0.99,
+ "mean_db": -16.7,
+ "has_audio": true
+}

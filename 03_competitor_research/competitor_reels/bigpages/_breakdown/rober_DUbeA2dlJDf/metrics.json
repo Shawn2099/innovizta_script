@@ -1,0 +1,15 @@
+{
+ "name": "rober_DUbeA2dlJDf",
+ "account": "rober",
+ "code": "DUbeA2dlJDf",
+ "duration_s": 38.8,
+ "width": 720,
+ "height": 1280,
+ "cuts": 15,
+ "cuts_per_10s": 3.87,
+ "first_cut_s": 1.5,
+ "avg_shot_s": 2.42,
+ "voiced_ratio": 1.0,
+ "mean_db": -17.8,
+ "has_audio": true
+}

@@ -1,0 +1,15 @@
+{
+ "name": "febtech_Denu578h49e",
+ "account": "febtech",
+ "code": "Denu578h49e",
+ "duration_s": 26.8,
+ "width": 720,
+ "height": 1280,
+ "cuts": 0,
+ "cuts_per_10s": 0.0,
+ "first_cut_s": null,
+ "avg_shot_s": 26.84,
+ "voiced_ratio": 0.98,
+ "mean_db": -17.0,
+ "has_audio": true
+}

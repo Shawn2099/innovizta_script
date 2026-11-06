@@ -1,0 +1,15 @@
+{
+ "name": "febtech_De64jFXuL4M",
+ "account": "febtech",
+ "code": "De64jFXuL4M",
+ "duration_s": 32.1,
+ "width": 720,
+ "height": 1280,
+ "cuts": 27,
+ "cuts_per_10s": 8.4,
+ "first_cut_s": 0.3,
+ "avg_shot_s": 1.15,
+ "voiced_ratio": 1.0,
+ "mean_db": -13.1,
+ "has_audio": true
+}

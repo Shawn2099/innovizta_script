@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:05,099
+X-rays are invisible, high-energy light that passes through your body.
+
+2
+00:00:05,099 --> 00:00:09,099
+Along the way, your cells absorb some of that energy.
+
+3
+00:00:09,099 --> 00:00:13,939
+It knocks electrons loose, making free radicals that attack DNA.
+
+4
+00:00:13,939 --> 00:00:16,140
+Both strands can snap.
+
+5
+00:00:16,140 --> 00:00:19,980
+If the repair goes wrong, a mutation is left behind.
+
+6
+00:00:19,980 --> 00:00:24,859
+That cell may start dividing out of control, the first step toward cancer.
+
+7
+00:00:24,859 --> 00:00:29,460
+The risk from one scan is tiny, so doctors use the lowest dose possible.
+
+8
+00:00:30,000 --> 00:00:40,000
+That cell may start dividing out of control, so doctors use the lowest dose possible.

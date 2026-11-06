@@ -1,0 +1,8 @@
+[   0.0-   5.1] X-rays are invisible, high-energy light that passes through your body.
+[   5.1-   9.1] Along the way, your cells absorb some of that energy.
+[   9.1-  13.9] It knocks electrons loose, making free radicals that attack DNA.
+[  13.9-  16.1] Both strands can snap.
+[  16.1-  20.0] If the repair goes wrong, a mutation is left behind.
+[  20.0-  24.9] That cell may start dividing out of control, the first step toward cancer.
+[  24.9-  29.5] The risk from one scan is tiny, so doctors use the lowest dose possible.
+[  30.0-  40.0] That cell may start dividing out of control, so doctors use the lowest dose possible.

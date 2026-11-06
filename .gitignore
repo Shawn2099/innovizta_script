@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+pipeline/.venv/
+.venv/
+venv/
+ENV/
+
+# Large media & raw footage (>4 GB)
+vidoes/
+*.mp4
+*.mov
+*.MOV
+*.avi
+*.mkv
+
+# Temporary / editor / OS files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log

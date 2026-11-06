@@ -1,0 +1,15 @@
+{
+ "name": "shazzam_DfKBIJ_up6F",
+ "account": "shazzam",
+ "code": "DfKBIJ_up6F",
+ "duration_s": 162.5,
+ "width": 720,
+ "height": 1280,
+ "cuts": 28,
+ "cuts_per_10s": 1.72,
+ "first_cut_s": 10.83,
+ "avg_shot_s": 5.6,
+ "voiced_ratio": 1.0,
+ "mean_db": -16.9,
+ "has_audio": true
+}

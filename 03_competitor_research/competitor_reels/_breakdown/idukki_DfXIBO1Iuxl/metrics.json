@@ -1,0 +1,15 @@
+{
+ "name": "idukki_DfXIBO1Iuxl",
+ "account": "idukki",
+ "code": "DfXIBO1Iuxl",
+ "duration_s": 102.0,
+ "width": 720,
+ "height": 1280,
+ "cuts": 0,
+ "cuts_per_10s": 0.0,
+ "first_cut_s": null,
+ "avg_shot_s": 102.03,
+ "voiced_ratio": 1.0,
+ "mean_db": -16.9,
+ "has_audio": true
+}

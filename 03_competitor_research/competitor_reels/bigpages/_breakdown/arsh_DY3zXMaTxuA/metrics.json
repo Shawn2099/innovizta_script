@@ -1,0 +1,15 @@
+{
+ "name": "arsh_DY3zXMaTxuA",
+ "account": "arsh",
+ "code": "DY3zXMaTxuA",
+ "duration_s": 65.7,
+ "width": 720,
+ "height": 1280,
+ "cuts": 45,
+ "cuts_per_10s": 6.85,
+ "first_cut_s": 0.73,
+ "avg_shot_s": 1.43,
+ "voiced_ratio": 1.0,
+ "mean_db": -17.3,
+ "has_audio": true
+}

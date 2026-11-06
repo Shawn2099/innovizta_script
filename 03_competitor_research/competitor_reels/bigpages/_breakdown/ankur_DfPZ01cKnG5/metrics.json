@@ -1,0 +1,15 @@
+{
+ "name": "ankur_DfPZ01cKnG5",
+ "account": "ankur",
+ "code": "DfPZ01cKnG5",
+ "duration_s": 45.3,
+ "width": 720,
+ "height": 1280,
+ "cuts": 0,
+ "cuts_per_10s": 0.0,
+ "first_cut_s": null,
+ "avg_shot_s": 45.31,
+ "voiced_ratio": 1.0,
+ "mean_db": -17.3,
+ "has_audio": true
+}

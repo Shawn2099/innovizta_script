@@ -1,0 +1,15 @@
+{
+ "name": "bbx_DfXXASWOwYc",
+ "account": "bbx",
+ "code": "DfXXASWOwYc",
+ "duration_s": 30.5,
+ "width": 720,
+ "height": 1280,
+ "cuts": 43,
+ "cuts_per_10s": 14.09,
+ "first_cut_s": 0.27,
+ "avg_shot_s": 0.69,
+ "voiced_ratio": 0.92,
+ "mean_db": -16.2,
+ "has_audio": true
+}

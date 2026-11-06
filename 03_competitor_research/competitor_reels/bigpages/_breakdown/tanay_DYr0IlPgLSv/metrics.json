@@ -1,0 +1,15 @@
+{
+ "name": "tanay_DYr0IlPgLSv",
+ "account": "tanay",
+ "code": "DYr0IlPgLSv",
+ "duration_s": 52.6,
+ "width": 720,
+ "height": 1280,
+ "cuts": 9,
+ "cuts_per_10s": 1.71,
+ "first_cut_s": 1.92,
+ "avg_shot_s": 5.26,
+ "voiced_ratio": 1.0,
+ "mean_db": -16.5,
+ "has_audio": true
+}

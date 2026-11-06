@@ -1,0 +1,15 @@
+{
+ "name": "flemin_DYB2nEAT9RK",
+ "account": "flemin",
+ "code": "DYB2nEAT9RK",
+ "duration_s": 57.9,
+ "width": 720,
+ "height": 1280,
+ "cuts": 8,
+ "cuts_per_10s": 1.38,
+ "first_cut_s": 15.73,
+ "avg_shot_s": 6.43,
+ "voiced_ratio": 1.0,
+ "mean_db": -17.2,
+ "has_audio": true
+}

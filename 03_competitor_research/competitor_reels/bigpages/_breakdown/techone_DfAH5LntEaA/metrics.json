@@ -1,0 +1,15 @@
+{
+ "name": "techone_DfAH5LntEaA",
+ "account": "techone",
+ "code": "DfAH5LntEaA",
+ "duration_s": 104.0,
+ "width": 720,
+ "height": 1280,
+ "cuts": 18,
+ "cuts_per_10s": 1.73,
+ "first_cut_s": 11.77,
+ "avg_shot_s": 5.47,
+ "voiced_ratio": 1.0,
+ "mean_db": -16.6,
+ "has_audio": true
+}

@@ -1,0 +1,15 @@
+{
+ "name": "rober_C7Fe-uarxsD",
+ "account": "rober",
+ "code": "C7Fe-uarxsD",
+ "duration_s": 54.0,
+ "width": 720,
+ "height": 1280,
+ "cuts": 16,
+ "cuts_per_10s": 2.96,
+ "first_cut_s": 1.75,
+ "avg_shot_s": 3.18,
+ "voiced_ratio": 1.0,
+ "mean_db": -17.2,
+ "has_audio": true
+}
